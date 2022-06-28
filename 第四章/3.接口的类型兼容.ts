@@ -1,6 +1,6 @@
 
 // 原理是一样兼容，接口和class类之间可以互相兼容
-
+// 多成员的属性可以赋值给少成员的
 interface Point { 
     x: number
     y: number

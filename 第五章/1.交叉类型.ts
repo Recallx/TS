@@ -39,6 +39,7 @@ interface A {
 interface B {
     fn: (value: string) => string
 }
+// let c: number | string 相当于成为联合类型，number和string都可以
 
 type C = A & B
 
