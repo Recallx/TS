@@ -1,6 +1,6 @@
 
 /*
-    Partial可以将一个必须版本的类型，转成可选类型的版本。
+    Partial可以将一个必传参数版本的类型，转成可选类型的版本。
 */
 interface Props {
     name: string
